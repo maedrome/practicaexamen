@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView android:id="@+id/txtMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Principal"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp"
+            android:layout_marginVertical="70dp"
+        />
+        <Button android:id="@+id/btncontrol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTROL DE SENSORES"
+            android:textSize="15dp"
+        />
+        <Button android:id="@+id/btnpedidos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTORIAL DE PEDIDOS"
+            android:textSize="15dp"
+            />
+        <Button android:id="@+id/btnbase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BASE PRIVADA"
+            android:textSize="15dp"
+
+            />
+        <Button android:id="@+id/btnsalir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SALIR"
+            android:textSize="15dp"
+            android:onClick="regresar"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

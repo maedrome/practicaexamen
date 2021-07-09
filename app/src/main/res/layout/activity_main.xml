@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="usuario"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip"
+        />
+    <EditText android:id="@+id/txtPasswd"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Clave"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <Button android:id="@+id/BotonInicio"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            android:text="iniciar Sesión"
+            android:onClick="entrar"
+            />
+
+        <Button android:id="@+id/BotonRegistro"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Registro"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
